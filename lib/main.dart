@@ -514,7 +514,7 @@ class CaluaterScreenState extends State<CaluaterScreen> {
                         if (equation == "0") {
                           equation = "";
                         }
-                        if (!equation.contains("3.14")) {
+                        if (!equation.contains("3.14") && !equation.contains(".")) {
                           equation += "3.14";
                         }
                       });
